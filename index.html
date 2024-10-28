@@ -7,15 +7,17 @@
 </head>
 <body>
     <label for=" Intrebare"> Intrebare :</label>
-    <input type="text" id="Intrebare">
-    <br>
+    <input type="text" id="intrebare" oninput="verificare()">
+    <br><br>
     <label for="raspuns1">Raspuns 1:</label>
-    <input type="text" id="raspuns1">
-    <br>
+    <input type="text" id="raspuns1" oninput="verificare()">
+    <br><br>
     <label for="raspuns2">Raspuns 2:</label>
-    <input type="text" id="raspuns2">
-    <br>
-    <button id="add">add</button>
+    <input type="text" id="raspuns2" oninput="verificare()">
+    <br><br>
+    <button id="add" disabled>add</button>
+
+    <p id="msj"></p>
 
 </body>
 <script src="index.js"></script>
